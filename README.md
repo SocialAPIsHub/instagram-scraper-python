@@ -1,6 +1,6 @@
 # instagram-scraper-python
 
-[![PyPI](https://badge.fury.io/py/socialapis-sdk.svg)](https://pypi.org/project/socialapis-sdk/)
+[![PyPI](https://img.shields.io/pypi/v/socialapis-sdk?cacheSeconds=300&label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/socialapis-sdk/)
 [![Python versions](https://img.shields.io/pypi/pyversions/socialapis-sdk)](https://pypi.org/project/socialapis-sdk/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
