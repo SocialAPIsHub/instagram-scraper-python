@@ -17,7 +17,7 @@ from socialapis import InstagramScraper
 
 ig = InstagramScraper(api_token="...")           # alias of Instagram — keeps your import line greppable
 profile = ig.get_profile_details("instagram")
-print(profile.username, profile.followers, profile.posts_count)
+print(profile.username, profile.followers_count, profile.media_count)
 
 for post in ig.get_profile_posts("instagram").get("posts", []):
     print(post.get("caption", "")[:80])
@@ -56,7 +56,7 @@ ig = InstagramScraper(api_token="...")
 
 # Profile metadata in one call
 profile = ig.get_profile_details("instagram")
-print(profile.full_name, profile.followers, profile.is_verified)
+print(profile.full_name, profile.followers_count, profile.is_verified)
 
 # Posts with media URLs you can download directly
 result = ig.get_profile_posts("instagram")

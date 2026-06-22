@@ -61,12 +61,17 @@ def main() -> None:
                 "Out of credits. Upgrade at https://socialapis.io/pricing"
             ) from None
 
-        # Same fields arc298 returned (and more), but typed —
-        # profile.full_name not profile["full_name"]
+        # Same data arc298 returned (and more), but typed —
+        # profile.full_name not profile["full_name"]. Field names match
+        # the real API exactly (see ProfileInfo in the SDK docs).
         print(f"Profile: @{profile.username}")
         print(f"  Full name: {profile.full_name}")
-        print(f"  Followers: {profile.followers:,}" if profile.followers else "  Followers: n/a")
-        print(f"  Posts:     {profile.posts_count}")
+        print(
+            f"  Followers: {profile.followers_count:,}"
+            if profile.followers_count
+            else "  Followers: n/a"
+        )
+        print(f"  Media:     {profile.media_count}")
         print(f"  Verified:  {profile.is_verified}")
         print(f"  Private:   {profile.is_private}")
 
