@@ -4,7 +4,7 @@
 [![Python versions](https://img.shields.io/pypi/pyversions/socialapis-sdk)](https://pypi.org/project/socialapis-sdk/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-> Modern Python alternative to [`arc298/instagram-scraper`](https://github.com/arc298/instagram-scraper) — the 8.5k-star scraper that's been sporadically maintained for years. Hosted backend means it doesn't break when Instagram updates their interface, and you don't need Instagram credentials.
+> Modern Python alternative to [`arc298/instagram-scraper`](https://pypi.org/project/instagram-scraper/) — the 8.5k-star scraper that's been sporadically maintained for years. Hosted backend means it doesn't break when Instagram updates their interface, and you don't need Instagram credentials.
 
 This repo is a **migration landing page** + working examples. The actual SDK lives at [`SocialAPIsHub/socialapis-python`](https://github.com/SocialAPIsHub/socialapis-python) and ships as the `socialapis-sdk` package on PyPI.
 
@@ -29,7 +29,7 @@ for post in ig.get_profile_posts("instagram").get("posts", []):
 
 ## Why this exists
 
-[`arc298/instagram-scraper`](https://github.com/arc298/instagram-scraper) is one of the most popular Python tools for Instagram public data — 8.5k+ GitHub stars. It's been **sporadically maintained for years**: open issues pile up, scraper logic drifts as Meta tweaks their HTML, and every few months users hit one of the recurring failure modes (rate limits, login walls, broken pagination, deprecated endpoints).
+[`arc298/instagram-scraper`](https://pypi.org/project/instagram-scraper/) is one of the most popular Python tools for Instagram public data — 8.5k+ GitHub stars. It's been **sporadically maintained for years**: open issues pile up, scraper logic drifts as Meta tweaks their HTML, and every few months users hit one of the recurring failure modes (rate limits, login walls, broken pagination, deprecated endpoints).
 
 If you're here because:
 
