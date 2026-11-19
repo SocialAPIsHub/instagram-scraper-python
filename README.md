@@ -157,7 +157,7 @@ Options: `?theme=dark`, `?style=flat`, `?label=Your%20text`. Get the HTML, Markd
 - **Full SDK source + docs**: [SocialAPIsHub/socialapis-python](https://github.com/SocialAPIsHub/socialapis-python)
 - **Facebook alternative** to [`kevinzg/facebook-scraper`](https://github.com/kevinzg/facebook-scraper): [SocialAPIsHub/facebook-scraper-python](https://github.com/SocialAPIsHub/facebook-scraper-python)
 - **Hosted API docs**: [docs.socialapis.io](https://docs.socialapis.io)
-- **Endpoint catalog (50+ endpoints)**: [socialapis.io/api-sources](https://socialapis.io/api-sources)
+- **Endpoint catalog (53 endpoints)**: [socialapis.io/api-sources](https://socialapis.io/api-sources)
 - **Status page**: [socialapis.io/status](https://socialapis.io/status)
 - **Telegram (fastest support)**: [t.me/socialapis](https://t.me/socialapis)
 - **Email**: [support@socialapis.io](mailto:support@socialapis.io)
